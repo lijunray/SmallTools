@@ -1,2 +1,2 @@
 # SmallTools
-Some small tools targeting at automation
+Some small tools targeting at automation.
