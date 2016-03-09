@@ -17,10 +17,6 @@ This are some classes containing some static methods targeting at saving MicroSo
    		<artifactId>poi-ooxml</artifactId>
    		<version>3.14</version>
    	</dependency>
-   ?	
-   ?	
-
-   ?
 
 2. After Importing it, you can call *XlsxTransfer.readFile* to get data from xlsx file. There are 3 arguments for this static function: 
 
@@ -32,8 +28,6 @@ This are some classes containing some static methods targeting at saving MicroSo
 
    4. Note: this function returns a *ArrayList\<HashMap\<String, String>>*.
 
-      ?
-
 3. After reading it, you can call *XlsxTransfer.saveAsJsonFile* to save it as a json file. There are 2 arguments for this static function:
 
    1. *ArrayList\<HashMap\<String, String>> array* is what you got from *readFile* function.
@@ -42,16 +36,6 @@ This are some classes containing some static methods targeting at saving MicroSo
 
    3. Note: If the file path you denoted exists a file with same name already, it will throw an IOException with console message:"File Exists!".
 
-      ?
-
 4. Both of these 2 functions throws IOExceptions.
 
 5. Will update more such functions based on these 2 libraries, probably.
-
-   ?
-
-   ?
-
-   ?	
-
-   ?
