@@ -8,10 +8,10 @@ This are some classes containing some static methods targeting at saving MicroSo
 1. It has two dependencies, one of which is Apache POI, another is Gson. You can add their Maven dependencies into pom.xml as follows:
 
 ```
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.6.2</version>
+	<dependency>
+		<groupId>com.google.code.gson</groupId>
+		<artifactId>gson</artifactId>
+		<version>2.6.2</version>
    	</dependency>
    	<dependency>
    		<groupId>org.apache.poi</groupId>
